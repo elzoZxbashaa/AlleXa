@@ -16,6 +16,6 @@ async def start_bot():
     print("[INFO]: STARTING BOT CLIENT")
     await bot.start()
     A_q_lp = "V_K_Z"
-    await bot.send_message(A_q_lp, "** عدت للعمل**")
+    await bot.send_message(A_q_lp, "** لقد عاد البوت للعمل...√ **")
     print("[INFO]:   ")
     await idle()
