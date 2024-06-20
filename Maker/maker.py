@@ -72,15 +72,15 @@ async def auto_bot():
         except:
            pass
         try:
-          await user.join_chat("RQ_SF")
+          await user.join_chat("qkpqp")
         except:
           pass
         try:
-          await user.join_chat("R3_QX")
+          await user.join_chat("zxxlz")
         except:
           pass
         try:
-          await user.join_chat("R7_QX")
+          await user.join_chat("upwent")
         except:
           pass
       except Exception as e:
@@ -219,8 +219,8 @@ async def stratmaked(client, message):
 async def source(c: Client, m):
   mostafa ="""
 ╭──── • ◈ • ────╮
-么 [ Source ](t.me/R7_QX).
-么  [ 𝗥͜𝗼͡𝗪͡𝗲͜𝗦 .](t.me/R7_OX).
+么 [ Source ](t.me/zxxlz).
+么  [ 𝙴𝙻𝚉𝙾𝚉𝖝𝙿𝙰𝚂𝙷𝙰 ](t.me/V_K_z).
 ╰──── • ◈ • ────╯
 🚦 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 .
 """
