@@ -43,16 +43,16 @@ async def alive(client: Client, message):
 🚦𝑻𝒉𝒆 𝒃𝒆𝒔𝒕 𝒔𝒐𝒖𝒓𝒄𝒆 𝒕𝒆𝒍𝒆𝒈𝒓𝒂𝒎 ."""
 
     await message.reply_photo(
-        photo=f"https://graph.org/file/1c56d17360df91a46cd72.jpg",
+        photo=f"https://graph.org/file/4cf11c290ec2bb449d38d.jpg",
         caption=alive,
         reply_markup=keyboard,
     )
 
-@Client.on_message(filters.command(["المطور رويس","رويس","المبرمج"], ""))
+@Client.on_message(filters.command(["المطور الزوز","الزوز","الزوز"], ""))
 async def deev(client: Client, message: Message):
      if await joinch(message):
             return
-     user = await client.get_chat(chat_id="R7_OX")
+     user = await client.get_chat(chat_id="V_K_Z")
      name = user.first_name
      username = user.username 
      bio = user.bio
