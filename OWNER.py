@@ -7,7 +7,7 @@ from pyrogram import filters
 load_dotenv()
 
 OWNER = ["V_K_Z"]
-OWNER_NAME = " 𝗥͜𝗼͡𝗪͡𝗲͜𝗦 "
+OWNER_NAME = "𝙴𝙻𝚉𝙾𝚉𝖝𝙿𝙰𝚂𝙷𝙰"
 BOT_TOKEN = getenv("BOT_TOKEN")
 DATABASE = getenv("MONGO_DB_URI", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
