@@ -19,8 +19,8 @@ helper = {}
 
 
 
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
+API_ID = int(getenv("API_ID", "11986504"))
+API_HASH = getenv("API_HASH", "1dfacdf4296c1dd7951fbd9f39729021")
 BOT_TOKEN = BOT_TOKEN
 MONGO_DB_URL = DATABASE
 OWNER = OWNER 
