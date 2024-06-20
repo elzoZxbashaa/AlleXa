@@ -1,4 +1,4 @@
-import traceback
+import  traceback
 
 from pyrogram import Client, filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup
@@ -32,4 +32,4 @@ async def _callbacks(bot: Client, callback_query: CallbackQuery):
             await callback_query.message.reply(ERROR_MESSAGE.format(str(e)))
 
 
-ERROR_MESSAGE = "التواصل : @R7_OX"
+ERROR_MESSAGE = "التواصل : @V_K_Z"
