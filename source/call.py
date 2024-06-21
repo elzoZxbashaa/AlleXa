@@ -2,11 +2,11 @@ from pyrogram import Client, filters
 
 @Client.on_message(filters.video_chat_started)
 async def brah(client: Client, message):
-    await message.reply("**بدانا رغي يعم يوه 🙄💕**")
+    await message.reply("**المكالمه تقفلت ↞ أصواتكم كانت تفتح النفس 🍧🙊**")
 
 @Client.on_message(filters.video_chat_ended)
 async def bra(client: Client, message):
-    await message.reply("**خلصنا الرغي اخيرا 👀♥.**")
+    await message.reply(".↞ فتحوا المكالمه اللي وده يسمعنا صوته يصعد 🦦.**")
 
 @Client.on_message(filters.video_chat_members_invited)
 async def fuckoff(client: Client, message):
