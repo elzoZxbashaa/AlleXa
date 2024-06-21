@@ -40,7 +40,7 @@ async def english(client: Client, query: CallbackQuery):
 [InlineKeyboardButton("Operation method 🧠", callback_data="cbcmds"),InlineKeyboardButton("Activation method 🦸", callback_data="cbhowtouse")],
 [InlineKeyboardButton("Bot Group 🤖", url=f"https://t.me/qkpqp"),InlineKeyboardButton("Channel Updates 🐉", url=f"https://t.me/zxxlz")],
 [InlineKeyboardButton(f"{devname}", user_id=f"{dev}")],
-[InlineKeyboardButton("Add the bot to your group or channel ⚡",url=f"https://t.me/ELZ0ZBOT?startgroup=true")],])htthttps://t.me/{bot.username}?startgroup=trueps://t.me/{bot.username}?startgroup=true,disable_web_page_preview=True)
+[InlineKeyboardButton("Add the bot to your group or channel ⚡",url=f"https://t.me/{bot.username}?startgroup=true")],])htthttps://t.me/{bot.username}?startgroup=trueps://t.me/{bot.username}?startgroup=true,disable_web_page_preview=True)
 
 
 @Client.on_callback_query(filters.regex("cbhowtouse"))
@@ -55,7 +55,7 @@ async def cbguides(_, query: CallbackQuery):
 4.) ᴛụʀɴ ᴏɴ ᴛʜᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ғɪʀѕᴛ ʙᴇғᴏʀᴇ ѕᴛᴀʀᴛ ᴛᴏ ᴘʟᴀʏ ᴠɪᴅᴇᴏ/ᴍụѕɪᴄ.
 5.) ѕᴏᴍᴇᴛɪᴍᴇѕ, ʀᴇʟᴏᴀᴅɪɴɢ ᴛʜᴇ ʙᴏᴛ ʙʏ ụѕɪɴɢ /ʀᴇʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ʜᴇʟᴘ ʏᴏụ ᴛᴏ ғɪх ѕᴏᴍᴇ ᴘʀᴏʙʟᴇᴍ.
 📌 ɪғ ᴛʜᴇ ụѕᴇʀʙᴏᴛ ɴᴏᴛ ᴊᴏɪɴᴇᴅ ᴛᴏ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ, ᴍᴀᴋᴇ ѕụʀᴇ ɪғ ᴛʜᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ᴀʟʀᴇᴀᴅʏ ᴛụʀɴᴇᴅ ᴏɴ.
-💡 ɪғ ʏᴏụ ʜᴀᴠᴇ ᴀ ғᴏʟʟᴏᴡ-ụᴘ ǫụᴇѕᴛɪᴏɴѕ ᴀʙᴏụᴛ ᴛʜɪѕ ʙᴏᴛ, ʏᴏụ ᴄᴀɴ ᴛᴇʟʟ ɪᴛ ᴏɴ ᴍʏ ѕụᴘᴘᴏʀᴛ ᴄʜᴀᴛ ʜᴇʀᴇ: @R3_QX
+💡 ɪғ ʏᴏụ ʜᴀᴠᴇ ᴀ ғᴏʟʟᴏᴡ-ụᴘ ǫụᴇѕᴛɪᴏɴѕ ᴀʙᴏụᴛ ᴛʜɪѕ ʙᴏᴛ, ʏᴏụ ᴄᴀɴ ᴛᴇʟʟ ɪᴛ ᴏɴ ᴍʏ ѕụᴘᴘᴏʀᴛ ᴄʜᴀᴛ ʜᴇʀᴇ: @V_K_Z
 ⋮ __ ᴅᴇᴠᴇʟᴏᴘᴇʀ ʙʏ [{OWNER_NAME}]""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("ɢᴏ ʙᴀᴄᴋ", callback_data="english")]]
