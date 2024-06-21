@@ -36,11 +36,11 @@ async def english(client: Client, query: CallbackQuery):
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ [{OWNER_NAME}]""",
 
         reply_markup=InlineKeyboardMarkup([
-[InlineKeyboardButton("The owner of the source 🧑‍✈️", url=f"https://t.me/R7_OX")],
+[InlineKeyboardButton("The owner of the source 🧑‍✈️", url=f"https://t.me/V_K_Z")],
 [InlineKeyboardButton("Operation method 🧠", callback_data="cbcmds"),InlineKeyboardButton("Activation method 🦸", callback_data="cbhowtouse")],
-[InlineKeyboardButton("Bot Group 🤖", url=f"https://t.me/R3_QX"),InlineKeyboardButton("Channel Updates 🐉", url=f"https://t.me/R7_QX")],
+[InlineKeyboardButton("Bot Group 🤖", url=f"https://t.me/qkpqp"),InlineKeyboardButton("Channel Updates 🐉", url=f"https://t.me/zxxlz")],
 [InlineKeyboardButton(f"{devname}", user_id=f"{dev}")],
-[InlineKeyboardButton("Add the bot to your group or channel ⚡",url=f"https://t.me/{bot.username}?startgroup=true")],]),disable_web_page_preview=True)
+[InlineKeyboardButton("Add the bot to your group or channel ⚡",url=f"https://t.me/ELZ0ZBOT?startgroup=true")],])htthttps://t.me/{bot.username}?startgroup=trueps://t.me/{bot.username}?startgroup=true,disable_web_page_preview=True)
 
 
 @Client.on_callback_query(filters.regex("cbhowtouse"))
